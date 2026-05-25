@@ -7,6 +7,47 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
+    "scheme": "light",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "App ini butuh akses kamera untuk fitur foto"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "App ini butuh akses galeri untuk memilih foto"
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "App ini butuh lokasi"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#ffffff"
+        }
+      ],
+      [
+        "expo-contacts",
+        {
+          "contactsPermission": "App ini butuh akses kontak"
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "App ini butuh akses galeri",
+          "savePhotosPermission": "App ini ingin menyimpan foto ke galeri"
+        }
+      ]
+    ],
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
