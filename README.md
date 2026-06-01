@@ -49,4 +49,4 @@ Pastikan Anda sudah menginstall Node.js dan aplikasi Expo Go di smartphone.
 
 ---
 
-## Refleksi
+## Package Utama
