@@ -10,19 +10,14 @@
 
 ---
 
-## Tech Stack
-
-Aplikasi ini dibangun menggunakan ekosistem JavaScript modern:
----
-
 ## Cara Run Project
 
 Pastikan Anda sudah menginstall Node.js dan aplikasi Expo Go di smartphone.
 
 1.  **Clone Repository**
     ```bash
-    git clone 
-    cd 
+    git clone https://github.com/ArzaVie/p12-Sosmed-Dummy
+    cd p12-sosmed-dummy
     
     ```
 2.  **Install Dependencies**
@@ -34,19 +29,3 @@ Pastikan Anda sudah menginstall Node.js dan aplikasi Expo Go di smartphone.
     npx expo start -c
     ```
 4.  **Scan QR Code**: Buka aplikasi **Expo Go** di Android/iOS dan scan QR Code yang muncul di terminal.
-
----
-
-## Screenshots
-
-| Home                             | Detail Screen                        | Search                               | Favorites                           | Profile                             |
-| -------------------------------- | ------------------------------------ | ------------------------------------ | ----------------------------------- | ------------------------------------ |
-| ![Home]() | ![Detail]() | ![Seacrh]() | ![Fav]() | ![About]() |
-
----
-
-## Referensi
-
----
-
-## Package Utama
